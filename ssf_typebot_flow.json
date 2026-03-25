@@ -1,0 +1,286 @@
+{
+  "version": "6",
+  "id": "stin-ssf-bot",
+  "name": "STIN Sem Fronteiras — WhatsApp",
+  "groups": [
+    {
+      "id": "g-start",
+      "title": "Entrada",
+      "blocks": [
+        {
+          "id": "b-welcome",
+          "type": "text",
+          "content": {
+            "richText": [{"type":"p","children":[{"text":"Ooi, doutor(a). Tudo bem?\n\nVi que você chegou pelo anúncio do *Stin Sem Fronteiras* (abril, Alphaville).\n\nPra te direcionar melhor, me conta rapidinho:\n\n*Qual o seu desejo?*"}]}]
+          }
+        },
+        {
+          "id": "b-btn-1",
+          "type": "choice input",
+          "items": [
+            {"id":"c1-a","content":"👨‍🏫 Professores"},
+            {"id":"c1-b","content":"📅 Cronograma do Evento"},
+            {"id":"c1-c","content":"💰 Saber valores"},
+            {"id":"c1-d","content":"✅ Garantir vaga agora"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-posicionamento",
+      "title": "Etapa 2 — Posicionamento",
+      "blocks": [
+        {
+          "id": "b-pos",
+          "type": "text",
+          "content": {
+            "richText": [{"type":"p","children":[{"text":"Perfeito.\n\nEntão vou direto ao ponto:\n\nO Stin não é um evento de atualização comum.\nEle foi desenhado para médicos que já estão além do básico e querem acessar o que ainda não está difundido na prática clínica."}]}]
+          }
+        },
+        {
+          "id": "b-btn-2",
+          "type": "choice input",
+          "items": [
+            {"id":"c2-a","content":"🔍 O que torna diferente?"},
+            {"id":"c2-b","content":"👨‍⚕️ Quem são os professores?"},
+            {"id":"c2-c","content":"📋 Ver programação"},
+            {"id":"c2-d","content":"💰 Ir para valores"},
+            {"id":"c2-e","content":"✅ Garantir vaga agora"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-diferenciacao",
+      "title": "Etapa 3A — Diferenciação",
+      "blocks": [
+        {
+          "id": "b-diff",
+          "type": "text",
+          "content": {
+            "richText": [{"type":"p","children":[{"text":"A principal diferença está na profundidade e aplicação.\n\nNão é conteúdo teórico.\nSão abordagens que já estão sendo usadas na prática, mas ainda não estão difundidas na maioria dos consultórios.\n\nÉ uma troca mais avançada, entre médicos que já têm repertório e resultados clínicos."}]}]
+          }
+        },
+        {
+          "id": "b-btn-3a",
+          "type": "choice input",
+          "items": [
+            {"id":"c3a-a","content":"👨‍⚕️ Quem são os professores?"},
+            {"id":"c3a-b","content":"📋 Ver programação"},
+            {"id":"c3a-c","content":"💰 Ir para valores"},
+            {"id":"c3a-d","content":"🙋 Isso serve pra mim?"},
+            {"id":"c3a-e","content":"✅ Garantir vaga agora"},
+            {"id":"c3a-f","content":"💬 Falar com atendimento"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-professores",
+      "title": "Etapa 3B — Professores",
+      "blocks": [
+        {
+          "id": "b-prof",
+          "type": "text",
+          "content": {
+            "richText": [{"type":"p","children":[{"text":"Nessa edição, temos dois nomes inéditos:\n\n— Dra. Tatyana Borisiak (internacional) → *A Revolução dos Peptídeos*\n— Dr. Paulo Muzy → *Hormônios X Fertilidade na Prática Real*\n\nAlém disso, um time de peso:\n\n• William Rangel → Emagrecimento: Medicamentos do Futuro\n• Germana Martiniano → Evidências Científicas de Injetáveis no Esporte\n• Sebastião Viana → Terapias Nutricionais Injetáveis\n• Ronaldo Barros → Testosterona e Tadalafil\n• Nayana Brandão → Saúde da Mulher x Terapias e Implantes\n• André Malavasi → Implantes Hormonais — Na Vanguarda da Ciência\n• Vanessa Goltzman → Carreira Médica de Alto Nível\n\nConteúdo direto, aplicável e com uma visão que ainda não é comum no Brasil."}]}]
+          }
+        },
+        {
+          "id": "b-btn-3b",
+          "type": "choice input",
+          "items": [
+            {"id":"c3b-a","content":"📋 Ver programação"},
+            {"id":"c3b-b","content":"💰 Ir para valores"},
+            {"id":"c3b-c","content":"🙋 Isso serve pra mim?"},
+            {"id":"c3b-d","content":"🔍 O que torna diferente?"},
+            {"id":"c3b-e","content":"✅ Garantir vaga agora"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-qualificacao",
+      "title": "Etapa 4 — Autoqualificação",
+      "blocks": [
+        {
+          "id": "b-qual",
+          "type": "text",
+          "content": {
+            "richText": [{"type":"p","children":[{"text":"Nossa primeira pergunta: você é médico(a)? Essa é a primeira exigência.\n\nEsse evento faz mais sentido para médicos que:\n\n— já atendem e querem refinar conduta\n— buscam diferenciação real\n— querem levar o melhor tratamento com segurança ao paciente\n\nVocê se encaixa mais em qual momento?"}]}]
+          }
+        },
+        {
+          "id": "b-btn-4",
+          "type": "choice input",
+          "items": [
+            {"id":"c4-a","content":"✅ Já estou nesse nível"},
+            {"id":"c4-b","content":"📈 Estou evoluindo"},
+            {"id":"c4-c","content":"🤔 Ainda avaliando"},
+            {"id":"c4-d","content":"💰 Ir para valores"},
+            {"id":"c4-e","content":"✅ Garantir vaga agora"},
+            {"id":"c4-f","content":"💬 Falar com atendimento"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-programacao",
+      "title": "Etapa 5 — Programação",
+      "blocks": [
+        {
+          "id": "b-prog",
+          "type": "text",
+          "content": {
+            "richText": [{"type":"p","children":[{"text":"São 3 dias de imersão, com temas como:\n\n— Implantes Hormonais e Não Hormonais\n— Terapias Injetáveis\n— Peptídeos\n— Protocolos Clínicos\n— Direito Médico\n\n📍 Alphaville — SP\n📅 10 a 12 de Abril de 2026\n\n*Vagas limitadas e exclusivas para médicos.*"}]}]
+          }
+        },
+        {
+          "id": "b-btn-5",
+          "type": "choice input",
+          "items": [
+            {"id":"c5-a","content":"💰 Ir para valores"},
+            {"id":"c5-b","content":"❓ Tenho dúvidas"},
+            {"id":"c5-c","content":"✅ Garantir vaga agora"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-valores",
+      "title": "Etapa 6 — Valores",
+      "blocks": [
+        {
+          "id": "b-val",
+          "type": "text",
+          "content": {
+            "richText": [{"type":"p","children":[{"text":"As vagas são limitadas e exclusivas para médicos.\n\n*Investimento:*\n\n🥈 *Plano Silver — R$ 4.000*\nImersão 2 dias presencial\n\n🥇 *Plano Golden — R$ 4.500*\nImersão 3 dias presenciais\n+ Discussão de casos\n+ Operação assistida\n+ Aula gravada por 6 meses\n\nA proposta não é volume.\nÉ manter um nível alto de troca entre os participantes."}]}]
+          }
+        },
+        {
+          "id": "b-btn-6",
+          "type": "choice input",
+          "items": [
+            {"id":"c6-a","content":"✅ Garantir vaga agora"},
+            {"id":"c6-b","content":"📦 O que está incluso?"},
+            {"id":"c6-c","content":"💬 Falar com atendimento"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-incluso",
+      "title": "Etapa 6A — O que está incluso",
+      "blocks": [
+        {
+          "id": "b-incluso",
+          "type": "text",
+          "content": {
+            "richText": [{"type":"p","children":[{"text":"*Plano Golden (R$ 4.500) inclui:*\n✅ 3 dias de imersão completa\n✅ Discussão de casos clínicos\n✅ Operação assistida pelos palestrantes\n✅ Acesso às aulas gravadas por 6 meses na plataforma STINtuto\n✅ Material de apoio\n\n*Plano Silver (R$ 4.000) inclui:*\n✅ 2 dias de imersão\n✅ Módulo experimental do STINtuto"}]}]
+          }
+        },
+        {
+          "id": "b-btn-6a",
+          "type": "choice input",
+          "items": [
+            {"id":"c6a-a","content":"✅ Garantir vaga agora"},
+            {"id":"c6a-b","content":"💬 Falar com atendimento"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-avaliando",
+      "title": "Etapa 7 — Ainda avaliando / Dúvidas",
+      "blocks": [
+        {
+          "id": "b-aval",
+          "type": "text",
+          "content": {
+            "richText": [{"type":"p","children":[{"text":"Totalmente compreensível.\n\nVou conectar você com um dos nossos especialistas para esclarecer qualquer dúvida antes da sua decisão."}]}]
+          }
+        },
+        {
+          "id": "b-btn-7",
+          "type": "choice input",
+          "items": [
+            {"id":"c7-a","content":"💬 Falar com atendimento"},
+            {"id":"c7-b","content":"✅ Garantir vaga agora"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g-ia",
+      "title": "IA — Perguntas fora do fluxo",
+      "blocks": [
+        {
+          "id": "b-ia-capture",
+          "type": "text input",
+          "options": {"variableId": "user_question", "labels": {"placeholder": "Digite sua mensagem..."}},
+          "content": {"richText": [{"type":"p","children":[{"text":"Me conta o que você precisa saber:"}]}]}
+        },
+        {
+          "id": "b-ia-webhook",
+          "type": "webhook",
+          "options": {
+            "url": "https://SEU-APP.vercel.app/api/chat",
+            "method": "POST",
+            "body": "{\"message\": \"{{user_question}}\", \"session\": \"{{sessionId}}\"}",
+            "headers": [{"key": "Content-Type","value": "application/json"}],
+            "responseVariableMapping": [{"bodyPath": "reply", "variableId": "ai_reply"}]
+          }
+        },
+        {
+          "id": "b-ia-reply",
+          "type": "text",
+          "content": {"richText": [{"type":"p","children":[{"text":"{{ai_reply}}"}]}]}
+        },
+        {
+          "id": "b-btn-ia",
+          "type": "choice input",
+          "items": [
+            {"id":"cia-a","content":"✅ Garantir vaga agora"},
+            {"id":"cia-b","content":"💬 Falar com atendimento"},
+            {"id":"cia-c","content":"❓ Tenho outra dúvida"}
+          ]
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {"id":"e1","from":{"blockId":"b-btn-1","itemId":"c1-a"},"to":{"groupId":"g-posicionamento"}},
+    {"id":"e2","from":{"blockId":"b-btn-1","itemId":"c1-b"},"to":{"groupId":"g-posicionamento"}},
+    {"id":"e3","from":{"blockId":"b-btn-1","itemId":"c1-c"},"to":{"groupId":"g-valores"}},
+    {"id":"e4","from":{"blockId":"b-btn-2","itemId":"c2-a"},"to":{"groupId":"g-diferenciacao"}},
+    {"id":"e5","from":{"blockId":"b-btn-2","itemId":"c2-b"},"to":{"groupId":"g-professores"}},
+    {"id":"e6","from":{"blockId":"b-btn-2","itemId":"c2-c"},"to":{"groupId":"g-programacao"}},
+    {"id":"e7","from":{"blockId":"b-btn-2","itemId":"c2-d"},"to":{"groupId":"g-valores"}},
+    {"id":"e8","from":{"blockId":"b-btn-3a","itemId":"c3a-a"},"to":{"groupId":"g-professores"}},
+    {"id":"e9","from":{"blockId":"b-btn-3a","itemId":"c3a-b"},"to":{"groupId":"g-programacao"}},
+    {"id":"e10","from":{"blockId":"b-btn-3a","itemId":"c3a-c"},"to":{"groupId":"g-valores"}},
+    {"id":"e11","from":{"blockId":"b-btn-3a","itemId":"c3a-d"},"to":{"groupId":"g-qualificacao"}},
+    {"id":"e12","from":{"blockId":"b-btn-3b","itemId":"c3b-a"},"to":{"groupId":"g-programacao"}},
+    {"id":"e13","from":{"blockId":"b-btn-3b","itemId":"c3b-b"},"to":{"groupId":"g-valores"}},
+    {"id":"e14","from":{"blockId":"b-btn-3b","itemId":"c3b-c"},"to":{"groupId":"g-qualificacao"}},
+    {"id":"e15","from":{"blockId":"b-btn-3b","itemId":"c3b-d"},"to":{"groupId":"g-diferenciacao"}},
+    {"id":"e16","from":{"blockId":"b-btn-4","itemId":"c4-a"},"to":{"groupId":"g-programacao"}},
+    {"id":"e17","from":{"blockId":"b-btn-4","itemId":"c4-b"},"to":{"groupId":"g-programacao"}},
+    {"id":"e18","from":{"blockId":"b-btn-4","itemId":"c4-c"},"to":{"groupId":"g-avaliando"}},
+    {"id":"e19","from":{"blockId":"b-btn-4","itemId":"c4-d"},"to":{"groupId":"g-valores"}},
+    {"id":"e20","from":{"blockId":"b-btn-5","itemId":"c5-a"},"to":{"groupId":"g-valores"}},
+    {"id":"e21","from":{"blockId":"b-btn-5","itemId":"c5-b"},"to":{"groupId":"g-ia"}},
+    {"id":"e22","from":{"blockId":"b-btn-6","itemId":"c6-b"},"to":{"groupId":"g-incluso"}},
+    {"id":"e23","from":{"blockId":"b-btn-ia","itemId":"cia-c"},"to":{"groupId":"g-ia"}}
+  ],
+  "variables": [
+    {"id":"user_question","name":"user_question"},
+    {"id":"ai_reply","name":"ai_reply"},
+    {"id":"sessionId","name":"sessionId"}
+  ],
+  "settings": {
+    "whatsapp": {
+      "startCondition": "always"
+    }
+  }
+}
